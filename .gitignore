@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+python/.venv/
+python/venv/
+
+# Credenciales y variables de entorno
+.env
+.env.*
+!.env.example
+
+# Archivos temporales y del sistema
+.DS_Store
+Thumbs.db
+
+# Entornos de desarrollo
+.vscode/
+.idea/
+
+# Bases de datos locales
+*.sqlite3
+*.db
